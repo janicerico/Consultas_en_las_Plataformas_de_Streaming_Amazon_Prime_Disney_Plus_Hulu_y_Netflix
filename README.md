@@ -16,9 +16,10 @@
  
 En este Proyecto se me pidió ser parte del equipo de Data Engineering, para cual nos fue solicitado de parte del área de Data Analytics ciertos requerimientos para el desarrollo óptimo de sus actividades. Éstos fueron realizar en los datos las transformaciones correspondientes y disponibilizarlos mediante la elaboración y ejecución de una API.
 
-# <h1 align=center> DATOS: 
+# <h1 align=center> DATOS
+ 
 <h1 align=center> 4 tablas en formato .cvs correspondientes a cada plataforma de Streaming.
-</p>
+
 <p align="center"> amazon_prime_titles-score.csv
 <p align="center"> disney_plus_titles-score.csv
 <p align="center"> hulu_titles-score (2).csv
