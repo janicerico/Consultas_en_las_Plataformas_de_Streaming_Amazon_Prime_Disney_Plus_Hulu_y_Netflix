@@ -14,7 +14,7 @@
 
  ## <h1 align=center> INTRODUCCIÓN
  
-En este Proyecto se me pidió ser parte del equipo de Data Engineering, para cual nos fue solicitado de parte del área de Data Analytics ciertos requerimientos para el desarrollo óptimo de sus actividades. Éstos fueron realizar en los datos las transformaciones correspondientes y disponibilizarlos mediante la elaboración y ejecución de una API.
+En este Proyecto se me pidió ser parte del equipo de Data Engineering, para cual nos fue solicitado de parte del área de Data Analytics ciertos requerimientos para el desarrollo óptimo de sus actividades. Éstos, fueron realizar en los datos las transformaciones correspondientes y ciertas consultas, disponibilizándolos mediante la elaboración y ejecución de una API.
 
 # <h1 align=center> DATOS
  
