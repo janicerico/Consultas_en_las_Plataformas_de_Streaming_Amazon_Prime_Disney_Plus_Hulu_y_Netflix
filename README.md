@@ -6,7 +6,7 @@
 # <h1 align=center> Por: Janice Rico
 
 <p align="center">
-<img src=https://github.com/janicerico/PI01_Data-Engineering/blob/main/Images/big%20data.jpg>
+<img src=https://user-images.githubusercontent.com/109157476/213494110-56c2db2e-7789-4e59-90ea-9b6bf57196df.jpg>
 </p>
 
 ## <h1 align=center> TEMA:
@@ -19,7 +19,9 @@ En este Proyecto se me pidió ser parte del equipo de Data Engineering, para cua
 # <h1 align=center> DATOS: 
 <h1 align=center> 4 tablas en formato .cvs correspondientes a cada plataforma de Streaming.
  
-## <h1 align=center> TRANSFORMACIONES REQUERIDAS
+## <h1 align=center> TRANSFORMACIONES REQUERIDAS (Proceso de ETL)
+ 
+Se hizo la ingesta de cada base de datos y una exploración de su tamaño, campos, tipo de datos, valores nulos. Luego se realizaron procesos de limpieza y normalización; entre ellas:
  
 1. Generar un campo **id** conformado por la primera letra del nombre de la plataforma, seguido del show_id ya presente en el dataset.
 2. Reemplazar los valores nulos del campo rating por la string **"G"** (que significa "general for all audiences").
@@ -27,8 +29,38 @@ En este Proyecto se me pidió ser parte del equipo de Data Engineering, para cua
 4. Convertir todos los campos de texto a **minúsculas**.
 5. Convertir el campo **duration** en **duration_int** y **duration_type**.
 
-Estas transformaciones correspondientes a un proceso de ETL se encuentran ejecutadas en el Cuaderno de Jupyter con el nombre: **ETL.ipynb**
+Finalmente, las 4 tablas se unificaron en una sola llamada **all_streaming.csv** para facilitar las consultas posteriores.
+
+Estas transformaciones se encuentran ejecutadas en el Cuaderno de Jupyter con el nombre: **ETL.ipynb**
  
 ## <h1 align=center> DESARROLLO DE LA API
 
+A través de usar el Framework **FastAPI** se creó el archivo **main.py** donde se pudo disponibilizar de las siguientes consultas:
 
+1. Calcular la cantidad de veces que aparece una keyword en el título de películas y series, por plataforma.
+   Parámetros de entrada: Plataforma, keyword.
+   Nombre de la consulta: **get_word_count**
+2. Calcular la cantidad de películas por plataforma con un puntaje mayor a XX en un determinado año.
+   Parámetros de entrada: Plataforma, score, año.
+   Nombre de la consulta: **get_score_count**
+3. Mostrar la segunda película con mayor score para una plataforma determinada, según el orden alfabético de los títulos.
+   Parámetros de entrada: Plataforma.
+   Nombre de la consulta: **get_second_score**
+4. Mostrar la película que más duró según año, plataforma y tipo de duración.
+   Parámetros de entrada: Plataforma, tipo de duración, año.
+   Nombre de la consulta: **get_longest**
+5. Calcular la cantidad de series y películas por rating.
+   Parámetros de entrada: Rating.
+   Nombre de la consulta: **get_rating_count**
+
+## <h1 align=center> DEPLOYMENT
+
+Para disponibilizar la Aplicación de Consultas a los miembros del área de Data Analytic se utilizó la plataforma en la nube Deta. Para ello se utilizó el archivo **main.py** y los requerimientos detallados en **requirements.txt**.
+ 
+Se puede acceder al proyecto completo a través de link: https://858ag3.deta.dev/docs#/
+ 
+## <h1 align=center> VIDEO DEMOSTRATIVO
+
+Para ver el funcionamiento de la API, se puede ir al siguiente link: 
+
+Gracias por tomar de su tiempo y llegar hasta acá!
