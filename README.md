@@ -1,4 +1,5 @@
 ## <h1 align=center> Proyecto Individual No. 1. Data Engineering
+## <h1 align=center> Etapa de LABs - Carrera: Data Science
 
 <p align="center">
 <img src=https://user-images.githubusercontent.com/109157476/213493684-d39b7139-403c-4dac-873f-2505d3ec7fd9.png>
