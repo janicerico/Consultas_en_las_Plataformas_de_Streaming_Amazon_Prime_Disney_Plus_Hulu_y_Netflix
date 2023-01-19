@@ -1,7 +1,7 @@
 ## <h1 align=center> Proyecto Individual No. 1. Data Engineering
 
 <p align="center">
-<img src=![LOGO-HENRY](https://user-images.githubusercontent.com/109157476/213490858-757dfbef-cc01-4c9b-9abf-d7f4e8ad7ee9.png)>
+![LOGO-HENRY](https://user-images.githubusercontent.com/109157476/213491426-f17a123c-e4ce-49cb-85a5-f6dc18108652.png)
 </p>
 
 # <h1 align=center> Por: Janice Rico
