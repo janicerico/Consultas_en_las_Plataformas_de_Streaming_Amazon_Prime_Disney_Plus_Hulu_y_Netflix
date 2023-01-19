@@ -18,7 +18,7 @@ En este Proyecto se me pidió ser parte del equipo de Data Engineering, para cua
 
 # <h1 align=center> DATOS: 
 <h1 align=center> 4 tablas en formato .cvs correspondientes a cada plataforma de Streaming.
-
+</p>
 <p align="center"> amazon_prime_titles-score.csv
 <p align="center"> disney_plus_titles-score.csv
 <p align="center"> hulu_titles-score (2).csv
