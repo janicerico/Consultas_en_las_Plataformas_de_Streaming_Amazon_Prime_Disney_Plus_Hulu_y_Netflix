@@ -8,7 +8,6 @@
 
 <p align="center">
 <img src=https://user-images.githubusercontent.com/109157476/213494110-56c2db2e-7789-4e59-90ea-9b6bf57196df.jpg>
-</p>
 
 ## <h1 align=center> TEMA:
 # <h1 align=center> Consultas en las Plataformas de Streaming: Amazon Prime, Disney Plus, Hulu y Netflix. 
@@ -38,9 +37,9 @@ Estas transformaciones se encuentran ejecutadas en el Cuaderno de Jupyter con el
 
 A través de usar el Framework **FastAPI** se creó el archivo **main.py** donde se pudo disponibilizar de las siguientes consultas:
 
-1. Calcular la cantidad de veces que aparece una keyword en el título de películas y series, por plataforma.
-   Parámetros de entrada: Plataforma, keyword.
-   Nombre de la consulta: **get_word_count**
+1. Calcular la cantidad de veces que aparece una keyword en el título de películas y series, por plataforma.</p>
+   Parámetros de entrada: Plataforma, keyword.</p>
+   Nombre de la consulta: **get_word_count**</p>
 2. Calcular la cantidad de películas por plataforma con un puntaje mayor a XX en un determinado año.
    Parámetros de entrada: Plataforma, score, año.
    Nombre de la consulta: **get_score_count**
