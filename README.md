@@ -19,10 +19,10 @@ En este Proyecto se me pidió ser parte del equipo de Data Engineering, para cua
 # <h1 align=center> DATOS: 
 <h1 align=center> 4 tablas en formato .cvs correspondientes a cada plataforma de Streaming.
 
-<h1 align=center> amazon_prime_titles-score.csv
-<h1 align=center> disney_plus_titles-score.csv
-<h1 align=center> hulu_titles-score (2).csv
-<h1 align=center> netflix_titles-score.csv
+amazon_prime_titles-score.csv
+disney_plus_titles-score.csv
+hulu_titles-score (2).csv
+netflix_titles-score.csv
  
 ## <h1 align=center> TRANSFORMACIONES REQUERIDAS (Proceso de ETL)
 
