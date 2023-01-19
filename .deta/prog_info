@@ -1,0 +1,1 @@
+{"id":"e402b767-5272-458b-b062-3d98277dcf41","space":48633,"runtime":"python3.9","name":"fastapideta","path":"858ag3","project":"e0nrmz6y","account":"144798365827","region":"sa-east-1","deps":["fastapi","deta","python-multipart","pandas"],"envs":null,"public":true,"log_level":"debug","cron":""}
