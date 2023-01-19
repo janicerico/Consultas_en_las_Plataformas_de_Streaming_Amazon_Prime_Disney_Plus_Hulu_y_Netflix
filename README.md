@@ -40,18 +40,18 @@ A través de usar el Framework **FastAPI** se creó el archivo **main.py** donde
 1. Calcular la cantidad de veces que aparece una keyword en el título de películas y series, por plataforma.</p>
    Parámetros de entrada: Plataforma, keyword.</p>
    Nombre de la consulta: **get_word_count**</p>
-2. Calcular la cantidad de películas por plataforma con un puntaje mayor a XX en un determinado año.
-   Parámetros de entrada: Plataforma, score, año.
-   Nombre de la consulta: **get_score_count**
-3. Mostrar la segunda película con mayor score para una plataforma determinada, según el orden alfabético de los títulos.
-   Parámetros de entrada: Plataforma.
-   Nombre de la consulta: **get_second_score**
-4. Mostrar la película que más duró según año, plataforma y tipo de duración.
-   Parámetros de entrada: Plataforma, tipo de duración, año.
-   Nombre de la consulta: **get_longest**
-5. Calcular la cantidad de series y películas por rating.
-   Parámetros de entrada: Rating.
-   Nombre de la consulta: **get_rating_count**
+2. Calcular la cantidad de películas por plataforma con un puntaje mayor a XX en un determinado año.</p>
+   Parámetros de entrada: Plataforma, score, año.</p>
+   Nombre de la consulta: **get_score_count**</p>
+3. Mostrar la segunda película con mayor score para una plataforma determinada, según el orden alfabético de los títulos.</p>
+   Parámetros de entrada: Plataforma.</p>
+   Nombre de la consulta: **get_second_score**</p>
+4. Mostrar la película que más duró según año, plataforma y tipo de duración.</p>
+   Parámetros de entrada: Plataforma, tipo de duración, año.</p>
+   Nombre de la consulta: **get_longest**</p>
+5. Calcular la cantidad de series y películas por rating.</p>
+   Parámetros de entrada: Rating.</p>
+   Nombre de la consulta: **get_rating_count**</p>
 
 ## <h1 align=center> DEPLOYMENT
 
