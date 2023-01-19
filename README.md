@@ -79,6 +79,6 @@ Se puede acceder al proyecto completo a través del link: https://858ag3.deta.de
  
 ## <h1 align=center> VIDEO DEMOSTRATIVO
 
-Para ver el funcionamiento de la API, se puede ir al siguiente link: https://www.loom.com/share/da58dfbdd7d546f5a0cb74807af5204e
+Para ver el funcionamiento de la API, se puede ir al siguiente link: https://www.loom.com/share/70a5928e97b542678e9149a1db503f16
 
 Gracias por tomar de su tiempo y llegar hasta acá!
