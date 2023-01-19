@@ -7,7 +7,7 @@
 # <h1 align=center> Por: Janice Rico
 
 <p align="center">
-<img src=https://github.com/janicerico/PI01_Data-Engineering/blob/main/Images/data.png>
+<img src=https://github.com/janicerico/PI01_Data-Engineering/blob/main/Images/big%20data.jpg>
 </p>
 
  
