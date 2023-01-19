@@ -1,7 +1,7 @@
 ## <h1 align=center> Proyecto Individual No. 1. Data Engineering
 
 <p align="center">
-<img src=https://github.com/janicerico/PI01_Data-Engineering/blob/main/Images/LOGO-HENRY.png>
+<img src=![LOGO-HENRY](https://user-images.githubusercontent.com/109157476/213490858-757dfbef-cc01-4c9b-9abf-d7f4e8ad7ee9.png>
 </p>
 
 # <h1 align=center> Por: Janice Rico
@@ -32,4 +32,4 @@ Estas transformaciones correspondientes a un proceso de ETL se encuentran ejecut
  
 ## <h1 align=center> DESARROLLO DE LA API
 
-<h1 align=center> ![data](https://user-images.githubusercontent.com/109157476/213490438-75524483-e7ba-4574-82e9-34222658cbe4.png)
+
