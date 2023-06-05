@@ -73,9 +73,9 @@ A través de usar el Framework **FastAPI** se creó el archivo **main.py** donde
 <p align="center">
 <img src=https://user-images.githubusercontent.com/109157476/213511843-02ce1997-8353-403f-bbf6-c1e926590ae9.png>
 
-Para disponibilizar la Aplicación de Consultas a los miembros del área de Data Analytic se hizo el despliegue a través de la plataforma en la nube Deta. Para ello se utilizó el archivo **main.py** y los requerimientos detallados en **requirements.txt**.
+Para disponibilizar la Aplicación de Consultas a los miembros del área de Data Analytic se hizo el despliegue a través de la plataforma en la nube Deta Space. Para ello se utilizó el archivo **main.py** y los requerimientos detallados en **requirements.txt**.
  
-Se puede acceder al proyecto completo a través del link: https://858ag3.deta.dev/docs#/
+Se puede acceder al proyecto completo a través del link: https://fastapideta2-1-a1775845.deta.app/docs
  
 ## <h1 align=center> VIDEO DEMOSTRATIVO
 
